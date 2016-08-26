@@ -2,11 +2,11 @@
   "name": "vpaid-flash-client",
   "version": "1.0.2",
   "author": "Luis da Silva <luis.dasilva@mailonline.co.uk>",
-  "homepage": "https://github.com/MailOnline/VPAIDFLASHClient",
+  "homepage": "https://github.com/bittorrent/VPAIDFLASHClient",
   "main": "src/VPAIDFLASHClient.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MailOnline/VPAIDFLASHClient.git"
+    "url": "https://github.com/bittorrent/VPAIDFLASHClient.git"
   },
   "description": "VPAID Flash for JS",
   "keywords": [
@@ -17,7 +17,7 @@
     "IAB"
   ],
   "bugs": {
-    "url": "https://github.com/MailOnline/VPAIDFLASHClient/issues"
+    "url": "https://github.com/bittorrent/VPAIDFLASHClient/issues"
   },
   "license": "MIT",
   "devDependencies": {

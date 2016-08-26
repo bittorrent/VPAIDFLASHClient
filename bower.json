@@ -21,7 +21,7 @@
   "dependencies": {
     "swfobject": "MailOnline/swfobject"
   },
-  "homepage": "https://github.com/MailOnline/VPAIDFLASHClient",
+  "homepage": "https://github.com/bittorrent/VPAIDFLASHClient",
   "keywords": [
     "VPAID",
     "Flash",
