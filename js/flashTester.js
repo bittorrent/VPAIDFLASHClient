@@ -17,6 +17,7 @@ class FlashTester {
         params.FlashVars = `flashid=${FLASH_TEST_EL}&handler=${JSFlashBridge.VPAID_FLASH_HANDLER}`;
         params.allowScriptAccess = 'always';
 
+        swfobject = window.swfobject
         this.el = swfobject.createSWF(swfConfig, params, FLASH_TEST_EL);
         this._handlers = new MultipleValuesRegistry();
         this._isSupported = false;

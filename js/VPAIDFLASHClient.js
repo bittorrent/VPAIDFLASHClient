@@ -39,6 +39,7 @@ class VPAIDFLASHClient {
             return onError('user don\'t support flash or doesn\'t have the minimum required version of flash ' + FLASH_VERSION);
         }
 
+        swfobject = window.swfobject;
         this.el = swfobject.createSWF(swfConfig, params, this._flashID);
 
         if (!this.el) {
@@ -133,6 +134,7 @@ class VPAIDFLASHClient {
 }
 
 setStaticProperty('isSupported', () => {
+    swfobject = window.swfobject;
     return swfobject.hasFlashPlayerVersion(FLASH_VERSION) && flashTester.isSupported();
 }, true);
 
